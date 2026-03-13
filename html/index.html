@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio-CSS3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstar_Assignment5.css">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.3.0/mdb.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <section div class="page-wrapper">
+            <div class="nav-wrapper">
+                <div class="grad-bar"></div>
+                <nav class="navbar">
+                    <img src="/Company Logo/Bluestar_(bus_company)_logo.png" alt="Company Logo">
+                    <div class="menu-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#Home">Home</a></li>
+                        <li class="nav-item"><a href="#About">About</a></li>
+                        <li class="nav-item"><a href="#Project">Project</a></li>
+                        <li class="nav-item"><a href="#contact">Contact Us</a></li>
+                    
+
+                    </ul>
+                </nav>
+            </div>
+
+        </section>
+    </header>
+
+    <main>
+        <section class="hero" id="Home">
+            <div class="content">
+                <h1>Welcome to ur Website</h1>
+                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</P>
+                <a href="" class="btn"> More info</a>
+            </div>
+        </section>
+
+        <section class="about-container" id="About">
+            <div class="row align-items-center">
+
+                <!-- Left Column: Text -->
+                <div class="col-md-6">
+                    <h5>Hello Im Sadique</h5>
+                    <h2>
+                        This is a short description about the website.
+                    </h2>
+                </div>
+
+                <!-- Right Column: Image -->
+                <div class="col-md-6 text-center">
+                    <img src="/About/sadiq.jpg" width="400px" class="img-fluid rounded"
+                        alt="Profile Image">
+                </div>
+
+            </div>
+        </section>
+
+        <section class="project-container py-5" id="Project">
+            <article>
+                <div class="row row-cols-1 row-cols-md-3 py-5 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/Project/Project 01.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Web/Application</h6>
+                                <p class="card-text">Clean, intuitive web/app design focused on usability, modern
+                                    visuals, and a seamless user experience.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/Project/Project 02.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Bradning</h6>
+                                <p class="card-text">Strong, modern branding that builds trust, elevates identity, and
+                                    creates a memorable visual impact.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="/Project/Project 03.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h6 class="card-title">Package design</h6>
+                                <p class="card-text">Intuitive, modern UI design focused on clarity, smooth
+                                    interactions, and a visually cohesive user experience.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </article>
+        </section>
+        <div class="contact-container">
+
+  <form id="contact" action="" method="post">
+    <h3>Quick Contact</h3>
+    <h4>Contact us today, and get reply with in 24 hours!</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+ 
+  
+</div>
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+        <!-- MDB -->
+        <script type="text/javascript"
+            src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.3.0/mdb.umd.min.js"></script>
+
+    </main>
+    <hr>
+    
+        <footer class="text-center bg-body-tertiary">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-white m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-white m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-white m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-white m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-white m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        data-mdb-ripple-init
+        class="btn btn-link btn-floating btn-lg text-white m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgb(255, 255, 255);">
+    © 2020 Copyright:
+    <a class="text-body" href="http://127.0.0.1:5500/5.%20Bootstrap%20Assignment/html/index.html#About">sadiq.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+</body>
+
+</html>
